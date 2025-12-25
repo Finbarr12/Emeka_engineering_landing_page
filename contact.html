@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Emeka Chizel Enterprise Ltd - Get in Touch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container nav-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <img
+              src="./public/images/logo.png"
+              alt="Emeka Chizel Enterprise Ltd"
+            />
+          </a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+      <div class="hero-background">
+        <img
+          src="./public/images/commercial-building.jpg"
+          alt="Contact us for your needs"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-label">Get in Touch</div>
+        <h1 class="hero-title">
+          Let's Build <span class="title-accent">Together</span>
+        </h1>
+        <p class="hero-subtitle">
+          We're ready to discuss your project requirements and provide expert
+          guidance
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info-section">
+      <div class="container">
+        <div class="contact-info-grid">
+          <div class="contact-info-card">
+            <div class="info-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+                ></path>
+              </svg>
+            </div>
+            <h3>Phone</h3>
+            <a href="tel:07065465517">070 6546 5517</a>
+            <p>Available 24/7 for inquiries</p>
+          </div>
+          <div class="contact-info-card">
+            <div class="info-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3>Location</h3>
+            <p>127 Chime Avenue</p>
+            <p>Enugu, Nigeria</p>
+          </div>
+          <div class="contact-info-card">
+            <div class="info-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
+              </svg>
+            </div>
+            <h3>Email</h3>
+            <a href="mailto:emekaejiogu400@gmail.com">
+              emekaejiogu400@gmail.com
+            </a>
+            <p>We'll respond within 24 hours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="contact-form-grid">
+          <div class="form-sidebar">
+            <div class="sidebar-card">
+              <h3>Business Registration</h3>
+              <p class="reg-number">RC 7382565</p>
+              <p>
+                Registered under Companies and Allied Matters Act 2020 as a
+                Private Company Limited by Shares.
+              </p>
+              <div class="divider"></div>
+              <h3>Response Time</h3>
+              <p>
+                We typically respond to all inquiries within 24 hours during
+                business days.
+              </p>
+              <div class="divider"></div>
+              <h3>Service Availability</h3>
+              <ul class="service-list-contact">
+                <li>Civil Engineering</li>
+                <li>Quality Car Sales</li>
+                <li>Real Estate Solutions</li>
+              </ul>
+            </div>
+          </div>
+          <div class="form-wrapper">
+            <div class="form-header">
+              <h2>Send Us Your Project Details</h2>
+              <p>Fill out the form below and we'll get back to you promptly</p>
+            </div>
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Your full name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="07xxxxxxxxx"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="service">Service of Interest *</label>
+                <select id="service" name="service" required>
+                  <option value="">Select a service...</option>
+                  <option value="civil-engineering">
+                    Civil Engineering & Construction
+                  </option>
+                  <option value="quality-cars">Quality Car Sales</option>
+                  <option value="real-estate">Real Estate Services</option>
+                  <option value="general-inquiry">General Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget Range (Optional)</label>
+                <select id="budget" name="budget">
+                  <option value="">Select if applicable...</option>
+                  <option value="under-1m">Under ₦1 Million</option>
+                  <option value="1-5m">₦1M - ₦5M</option>
+                  <option value="5-10m">₦5M - ₦10M</option>
+                  <option value="10-50m">₦10M - ₦50M</option>
+                  <option value="above-50m">Above ₦50M</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Project Details *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  placeholder="Tell us about your project, timeline, and specific needs..."
+                  rows="6"
+                ></textarea>
+              </div>
+              <div class="form-consent">
+                <input type="checkbox" id="consent" name="consent" required />
+                <label for="consent">
+                  I agree to be contacted about my inquiry
+                </label>
+              </div>
+              <button
+                type="submit"
+                id="submitBtn"
+                class="btn btn-primary btn-full"
+              >
+                Send Inquiry
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Contact Us -->
+    <section class="why-contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">Why Get in Touch</div>
+          <h2 class="section-title">What You Can Expect</h2>
+        </div>
+        <div class="expectations-grid">
+          <div class="expectation-card">
+            <div class="expectation-number">01</div>
+            <h3>Quick Response</h3>
+            <p>
+              Your inquiry is important to us. Expect a prompt response within
+              24 business hours with initial consultation details.
+            </p>
+          </div>
+          <div class="expectation-card">
+            <div class="expectation-number">02</div>
+            <h3>Expert Assessment</h3>
+            <p>
+              Our team will thoroughly evaluate your project requirements and
+              provide professional recommendations based on our expertise.
+            </p>
+          </div>
+          <div class="expectation-card">
+            <div class="expectation-number">03</div>
+            <h3>Customized Solutions</h3>
+            <p>
+              We tailor our services to meet your specific needs and budget,
+              ensuring you get the best value for your investment.
+            </p>
+          </div>
+          <div class="expectation-card">
+            <div class="expectation-number">04</div>
+            <h3>Transparent Pricing</h3>
+            <p>
+              No hidden costs. We provide detailed quotations with clear
+              breakdowns so you know exactly what to expect.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map & Office Section -->
+    <section class="office-section">
+      <div class="container">
+        <div class="office-grid">
+          <div class="office-info">
+            <div class="section-label">Our Office</div>
+            <h2 class="section-title">Visit Us in Enugu</h2>
+            <div class="office-details">
+              <div class="detail-item">
+                <h4>Head Office</h4>
+                <p>127 Chime Avenue</p>
+                <p>New Haven, Enugu</p>
+                <p>Nigeria</p>
+              </div>
+              <div class="detail-item">
+                <h4>Residential Address</h4>
+                <p>130 Ogui Road</p>
+                <p>Enugu</p>
+                <p>Nigeria</p>
+              </div>
+              <div class="detail-item">
+                <h4>Working Hours</h4>
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                <p>Sunday: Closed</p>
+              </div>
+            </div>
+            <p class="office-description">
+              Feel free to visit our office for a face-to-face consultation or
+              call ahead to schedule an appointment at your convenience.
+            </p>
+          </div>
+          <div class="office-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.5270948652903!2d7.492893!3d6.451779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a5d4d7b7b7b7%3A0x5d5d5d5d5d5d5d5d!2sChime%20Avenue%2C%20New%20Haven%2C%20Enugu!5e0!3m2!1sen!2sng!4v1640000000000"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Let's Start Your Project Today</h2>
+          <p>
+            Whether it's construction, vehicle sales, or real estate, we're here
+            to help you succeed.
+          </p>
+          <div class="cta-buttons">
+            <a href="#contact-form" class="btn btn-primary">Send Inquiry</a>
+            <a href="tel:07065465517" class="btn btn-secondary">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                width="20"
+                height="20"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+                ></path>
+              </svg>
+              Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-logo">
+            <img
+              src="./public/images/logo.png"
+              alt="Emeka Chizel Enterprise Ltd"
+            />
+            <p class="footer-description">
+              Certified civil engineer delivering excellence in construction,
+              vehicle sales, and real estate across Nigeria since 2024.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="services.html">Civil Engineering</a></li>
+              <li><a href="services.html">Quality Cars</a></li>
+              <li><a href="services.html">Real Estate</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="tel:07065465517">070 6546 5517</a></li>
+              <li><a href="mailto:emekaejiogu400@gmail.com">Email Us</a></li>
+              <li>
+                <a href="contact.html">Get Consultation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Emeka Chizel Enterprise Ltd. All rights reserved.</p>
+          <p class="footer-tagline">
+            Enugu-Based | Trusted Services | Professional Results
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Removed duplicate inline form submission handler - now handled in script.js only -->
+  </body>
+</html>
